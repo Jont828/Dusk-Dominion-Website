@@ -1,0 +1,323 @@
+/*CSS Skeleton*/
+	* {
+		font-family: Century Gothic, Verdana;
+	}
+
+	div {
+		margin: 0px 14% 0px 14%;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6
+	{
+		/*font-family: Century Gothic;*/
+		color: #004684;
+		/*color: #232323;*/
+	}
+
+	p,
+	ul,
+	ol {
+		/*font-family: Century Gothic;*/
+		color: #343434;
+		line-height: 24px;
+	}
+
+	html {
+		height: 100%;
+	}
+
+	head {
+		/*background-color: #F2F2F2;*/
+	}
+
+	body {
+		margin: 0px;
+		height: 100%;
+		overflow-y: scroll;
+		/*background-image: url('http://i.imgur.com/fd3UgYL.jpg');*/
+		background-image: url('duskbackground.jpg');
+		background-attachment: fixed;
+		background-repeat: vertical;
+		background-size: 200%;
+		background-position: center;		
+	}
+
+/*	@media only screen and (min-width: 768px) {
+		body {
+			margin: 0px;
+			height: 100%;
+			overflow-y: scroll;
+			/*background-image: url('http://i.imgur.com/fd3UgYL.jpg');*/
+			background-image: url('duskbackground.jpg');
+			background-attachment: fixed;
+			background-repeat: vertical;
+			background-size: 200%;
+			background-position: center;		
+		}
+	}*/
+
+/*	@media only screen and (max-width: 768px) {
+		body {
+			margin: 0px;
+			height: 100%;
+			overflow-y: scroll;
+			/*background-image: url('http://i.imgur.com/fd3UgYL.jpg');*/
+			background-image: url('duskbackground.jpg');
+			background-repeat: vertical;
+			background-size: 200%;
+			background-position: top;		
+		}
+	}*/
+	
+	form {
+		text-align: center;
+	}
+
+	textarea,
+	input {
+		/*font-family: Century Gothic;*/
+		font-size: 18px;
+		height: 25px;
+		width: 250px;
+	}
+	
+	.asterisk {
+		color: #FF0000;
+	}
+/*CSS Skeleton*/
+
+/*Website Body Text*/
+	#tribs {
+		height: 0; /*to 100% jquery*/
+		width: 0; /*to 100% jquery*/
+	}
+
+	.homebody,
+	.body {
+		margin: 0 15% 0 15%;
+		/*background-color: #FFFFFF;*/
+		/*background-color: #F2F2F2;*/
+		background-color: #F2F2F2;
+		width: auto;
+		display: block;
+		border-radius: 5px;
+		padding: 20px 40px 20px 40px;
+	} 
+
+/*	.homebody {
+		background-color: transparent;
+	}*/
+
+/*	.homebody h1 {
+		color: #FFFFFF;
+		text-shadow: 1px 1px 2px #000, 0px 2px 2px #333;
+		font-weight: bolder;
+	}*/
+
+/*	.homebody p {
+		color: #EAEAEA;
+	}*/
+/*Website Body Text*/
+
+/*Website Banner*/
+
+	.banner {
+		padding: 30px 0 30px 0;
+		margin: 0 15% 0 15%;
+		text-align: center;
+		/*background-color: #F2F2F2;*/
+		background-color: #004684;
+		/*font-family: Century Gothic;*/
+		font-size: 20px;
+	}
+
+	.bannerimg {
+		height: 85%;
+		width: 85%;
+	}
+
+/*Website Banner*/
+
+/*Main Navigation Bar*/
+	.nav li:hover {
+		/*background-color: gold;*/
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		border-style: solid;
+		border-color: gold;
+		border-width: 0 0 5px 0;
+	}
+
+	.nav li:hover > a {
+		color: #FFFFFF;
+	}
+
+	.nav {
+		position:relative;
+		/*padding: 0 0 10px 0;*/
+		padding: 0;
+		text-align: center;
+		list-style: none;
+		margin: 0 15% 0 15%;
+		text-align: center;
+		/*background-color: #F2F2F2;*/
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		background-color: #004684;
+	} 
+
+	.nav a {
+		display: inline-block;
+		padding: 10px;
+		text-decoration: none;
+		/*color: #004684*/;
+		color: #AAAAAA;
+	}
+
+	.nav li {
+		display: inline-block;
+		position: relative;
+		/*font-family: Century Gothic;*/
+		font-size: 20px;
+		font-weight: normal;
+		text-align: center;
+		margin: 0 10px 0 10px;
+		border-style: solid;
+		border-color: #004684;
+		border-width: 0 0 5px 0;
+	}
+
+	.active {
+		border-style: solid;
+		border-color: gold !important;
+		border-width: 0 0 5px 0;
+	}
+/*Main Navigation Bar*/
+
+/*Dropdown Menu*/
+	.nav li ul {
+		display: none;
+		position: absolute;
+		top:100%;
+		left: 0;
+		background:#fff;
+		padding: 0 0 0 0;
+		margin: 5px 0 0 0;
+		background-color: #EAEAEA;
+
+	/*	border-width: 0 5px 5px 5px;
+		border-style: solid;
+		border-color: #004684;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px; */
+		border-style: solid;
+		border-width: 0;
+		box-shadow: 5px;
+	}
+
+	.nav li:hover > ul {
+		display: block;
+	}
+
+	.nav li ul > li {
+		margin: 0;
+		display: block;
+		border-width: 0;
+	}
+
+	.nav li ul li > a {
+		padding: 10px !important;
+		display: block;
+		color: #343434;
+		padding: 0;
+	}
+
+	.nav li ul li:hover > a {
+		color: #343434;
+	}
+
+	.nav li ul li:hover {
+		background-color: gold;
+		/*background-color: #004684;*/
+		border: 0;
+		border-radius: 0;
+	}
+
+	.nav li ul li {
+		float: none;
+		width: 100%;
+	}
+
+	.nav li ul li a {
+		white-space: nowrap;
+		text-align: left;
+		padding: 10px 20px 10px 20px !important;
+	}
+/*Dropdown Menu*/
+
+/*Submit*/
+	input[type="text"]
+	input[type="password"]{
+		border-radius: 5px;
+		height: 30px;
+		width: 300px;
+		font-size: 20px;
+		text-align: left;
+	}
+
+	button {
+		font-family: Calibri;
+		text-align: center;
+		font-size: 20px;
+		height: 30px;
+		width: 90px;
+	}
+
+	.loginspan {
+		/*font-family: Century Gothic;*/
+	}
+/*Submit*/
+	
+/*Footer*/
+	.wrapper {
+		min-height: 100%;
+		margin: 0 auto -105px; /*Must be sum of height in .footer!!!*/
+	}
+
+	.push {
+		height: 105px; /*Must be sum of height in .footer!!!*/
+		clear: both;
+	}
+	
+	.oppush {
+		height: 0px;
+		margin-bottom: 40px;
+		clear: both;
+	}
+
+	.footer {
+		height: 45px;
+		clear: both;
+		/*font-family: Century Gothic;*/
+		font-size: 18px;
+		color: #FFFFFF;
+		/*color: #343434;*/
+		margin: 20px 15% 20px 15%;
+		text-align: center;
+		background-color: #004684;
+		/*background-color: #EAEAEA;*/
+		padding: 10px 0px 10px 0px;
+		border-radius: 5px;
+		/*border-top-left-radius: 5px;
+		border-top-right-radius: 5px;*/
+	}
+/*Footer*/
